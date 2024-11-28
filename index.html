@@ -8,9 +8,8 @@
       <link rel="stylesheet" href="playmus.css" />
       <link rel="stylesheet" href="viezdmnu.css" />    
       <link rel="stylesheet" href="viezdmnur.css" />    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <!-- <link rel="stylesheet" href="all.min.css"> -->
-    <title>Аудиоплейер 6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">  <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <title>Плейер 6 Йеллоустоун</title>
     <link rel="icon" type="Images/x-icon" href="atsicon.ico"/>
   </head>
   <body>
@@ -44,64 +43,82 @@
   <button class="btn btn-primary" id="butn21">&nbspФон&nbsp21&nbsp</button>
 </div>
 
-<div class="victor" id="victor">
+<!-- <div class="victor" id="victor">
   <iframe width="670" height="260" frameborder="1"src="yellowstone.html"
   title="Читаем" frameborder="0" allowfullscreen></iframe>
-</div>  
+</div>   -->
+
+<div class="containerop" id="containerop">
+  <p>Йе́ллоустонский национа́льный парк, Йе́ллоустон (англ. Yellowstone National Park) — 
+международный биосферный заповедник, объект Всемирного наследия ЮНЕСКО, 
+первый в мире национальный парк (основан 1 марта 1872 года). Находится в США, 
+на территории штатов Вайоминг, Монтана и Айдахо. Парк знаменит многочисленными 
+гейзерами и другими геотермическими объектами, богатой живой природой, 
+живописными ландшафтами. Площадь парка — 898,3 тыс. га (8983 км²).
+Согласно археологическим данным, люди начали жить на территории, занимаемой парком, 11 000 лет назад.
+На огромной территории парка находятся озёра, реки, каньоны и пещеры. Озеро Йеллоустон, 
+одно из самых больших высокогорных озёр в Северной Америке, расположено в центре 
+Йеллоустонской кальдеры. Кальдера считается дремлющим супервулканом, самым большим 
+на континенте; он извергался с огромной силой несколько раз за последние два миллиона лет. 
+Большая часть территории парка покрыта застывшей лавой; в парке находится одно из пяти 
+существующих в мире гейзерных полей.
+  </p>
+</div>
 
 <div class="victor1">
   <button onclick="show_hide()">&nbspОписание&nbsp</button>
   <button onclick="show_hide2()">&nbspПлейер&nbsp</button>
   <button onclick="show_hide3()">&nbspФоны&nbsp</button>
+  <button id="makefon">&nbspФон для чтения&nbsp</button>
 </div>
 
 <div class="menu">
   <div class="list_menu">
     <ul>
 
-<li><span id=mus1><p>Знаешь ли ты</p>    
+<li><span id=mus601><p>Знаешь ли ты</p>    
     <audio controls>
         <source src="music/01znaesh.mp3" type="audio/mpeg">Прослушаем музыку 1
     </audio>
 </span></li>
 
-<li><span id=mus2><p>Не отдам</p>    
+<li><span id=mus602><p>Не отдам</p>    
   <audio controls>
       <source src="music/02neotdam.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus3><p>Ветром стать</p>    
+<li><span id=mus603><p>Ветром стать</p>    
   <audio controls>
       <source src="music/03vetrom.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus4><p>Сон</p>    
+<li><span id=mus604><p>Сон</p>    
   <audio controls>
       <source src="music/04son.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus5><p>Мой рай</p>    
+<li><span id=mus605><p>Мой рай</p>    
   <audio controls>
       <source src="music/05moyray.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus17><p>Портрет</p>    
+<li><span id=mus606><p>Портрет</p>    
   <audio controls>
       <source src="music/06portret.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus6><p>Дождь</p>    
+<li><span id=mus607><p>Дождь</p>    
   <audio controls>
       <source src="music/07dozd.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus8><p>Сантиметры дыхания</p>    
+<li><span id=mus608><p>Сантиметры дыхания</p>    
   <audio controls>
       <source src="music/08smdihrem.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
@@ -115,49 +132,49 @@
   <div class="list_menur">
     <ul>
 
-<li><span id=mus9><p>Весна</p>    
+<li><span id=mus609><p>Весна</p>    
   <audio controls>
       <source src="music/09vesna.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus18><p>Зима</p>    
+<li><span id=mus610><p>Зима</p>    
   <audio controls>
       <source src="music/10zima.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus11><p>Как летать</p>    
+<li><span id=mus611><p>Как летать</p>    
   <audio controls>
       <source src="music/11kakletat.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus12><p>Научусь летать</p>    
+<li><span id=mus612><p>Научусь летать</p>    
   <audio controls>
       <source src="music/12nauletat.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus13><p>Штампы</p>    
+<li><span id=mus613><p>Штампы</p>    
   <audio controls>
       <source src="music/13shtampi.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus14><p>Дорога</p>    
+<li><span id=mus614><p>Дорога</p>    
   <audio controls>
       <source src="music/14doroga.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus15><p>Осколки</p>    
+<li><span id=mus615><p>Осколки</p>    
   <audio controls>
       <source src="music/15oskolki.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus16><p>Секретов нет</p>    
+<li><span id=mus616><p>Секретов нет</p>    
   <audio controls>
       <source src="music/16sekrnet.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
@@ -194,7 +211,8 @@
   <script src="vklvikl.js"></script>  
   <script src="vklvikl2.js"></script>  
   <script src="vklvikl3.js"></script>  
-  
+  <script src="vklvikl4.js"></script>  
+
   <!-- <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
