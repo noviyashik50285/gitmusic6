@@ -11,6 +11,7 @@
       opacity: 1;
       color: black;
   }  /* .vnizuspan{ text-align: center; font-size: .8rem;} */
+button{ border: 1px dashed #2c3544; border-radius: 10px; }
 .butnfon{ display: block; 
   padding-top: 1.8rem;
   font-size: medium; color: red;
