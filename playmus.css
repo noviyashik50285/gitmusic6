@@ -45,8 +45,7 @@ button{ background-color: transparent;
     outline: none;
 }
 button:hover{color: white;}
-body {  background-image: url(back/yellowstone_.jpg);
-  /* background: radial-gradient(rgb(55, 255, 0), blue); */
+body {  background-image: url(back/yellowstone_.jpg);  /* background: radial-gradient(rgb(55, 255, 0), blue); */
   min-height: 100vh;
   overflow: hidden;
 	background-size: cover;
@@ -67,20 +66,18 @@ body {  background-image: url(back/yellowstone_.jpg);
 }
 .container {  
   display: block;
-  margin-top: 7.6rem; color: white;
+  margin-top: 7.2rem; color: white;
   opacity: 0.7;
   align-items: center;
-  position: absolute;
-  /* background-color: #99c39c; */
+  position: absolute;  /* background-color: #99c39c; */
   width: 550px;
   height: 160px;
   border: 3px solid gray;
-  border-radius: 1rem;
-  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
+  border-radius: 1rem;  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
 }
 .containerop {  
   display: block;
-  margin-top: 20rem; color: white;
+  margin-top: 18rem; color: white;
   font-size: 1.25rem;
   opacity: 0.85; text-align: center;
   align-items: center;
