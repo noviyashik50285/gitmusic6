@@ -70,7 +70,7 @@ body {  background-image: url(back/yellowstone_.jpg);  /* background: radial-gra
   opacity: 0.7;
   align-items: center;
   position: absolute;  /* background-color: #99c39c; */
-  width: 550px;
+  width: 660px;
   height: 160px;
   border: 3px solid gray;
   border-radius: 1rem;  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
@@ -103,7 +103,7 @@ h2 {
   cursor: pointer;
 }
 .progress {
-  background-color: #212121;
+  background-color: #110568;
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -135,10 +135,11 @@ h2 {
 .play-button {
   font-size: 44px;
 }
-#maxim{position: absolute; z-index: 3; font-size: medium;
-padding-left: 15rem; padding-top: 2.3rem;
+#maxim{ position: absolute;
+text-align: center;  z-index: 3; font-size: medium;
+padding-left: 18.6rem; 
+padding-top: 2.3rem;
 }
-#zaonpp{position: absolute; z-index: 3;
-padding-left: 13.9rem; padding-top: 5rem;
-}
+#doptxt{text-align: center;}
+/* #zaonpp{position: absolute; z-index: 3; padding-left: 13.9rem; padding-top: 5rem;} */
 p{color: #fff;}
