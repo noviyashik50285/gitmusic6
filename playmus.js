@@ -38,7 +38,7 @@ const songs = [
   },
   {
     path: "music/08smdihrem.mp3",
-    displayName: "Сантиметры дыхания",
+    displayName: "Сантиметры дыхания (Remix)",
   },
   {
     path: "music/09vesna.mp3",
